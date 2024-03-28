@@ -5,15 +5,18 @@
 ## 克隆项目
 
 ```bash
-git clone https://github.com/netease-im/NIM_Duilib_Framework
+git clone https://github.com/landv/NIM_Duilib_Framework_vs2022_fix
 ```
 
 ## 创建基础工程
 
-使用 Visual Studio 打开克隆后目录中 `samples\\samples.sln` 解决方案，
+~~使用 Visual Studio 打开克隆后目录中 `samples\\samples.sln` 解决方案，~~
+
+使用 Visual Studio 打开克隆后目录中 `demo\demo.sln` 解决方案，
+
 解决方案中包含了一些简单示例作为参考，你可以参考示例或新建一个 Windows 桌面应用，来一步一步完成第一个 duilib 窗口。
 
-当新建一个 Windows 桌面程序（VS2017）后，将生成的代码清理一下只保留 wWinMain 函数。
+当新建一个 Windows 桌面程序（VS2022）后，将生成的代码清理一下只保留 wWinMain 函数。
 
 ```cpp
 int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
